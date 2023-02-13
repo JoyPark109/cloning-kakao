@@ -1,0 +1,23 @@
+.search {
+    background-color: var(--sub-color);
+    border-radius: 13px;
+    width: 98%;
+    height: 45px;
+    display: flex;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search__box {
+    font-family: 'NanumSquareNeo-Variable';
+    border: none;
+    background-color: var(--sub-color);
+    margin-left: 10px;
+    font-size: 18px;
+    color: gray;
+    height: 100%;
+}
+.fa-magnifying-glass {
+    color: gray;
+}

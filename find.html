@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - MelodyTalk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__no-service">
+            <span>No Service</span>
+            <?xml version="1.0" ?><svg class="feather feather-wifi" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" x2="12.01" y1="20" y2="20"/></svg>
+        </div>
+        <div class="status-bar__time">
+            <span>05:06</span>
+        </div>
+        <div class="status-bar__battery">
+            <span>56%</span>
+            <svg class="status-bar__battery-bar" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect height="224" rx="45.7" ry="45.7" width="400" x="32" y="144" fill="none" stroke="#3d3d3d" stroke-linecap="square" stroke-miterlimit="10" stroke-width="32px" class="stroke-000000"></rect><rect height="114.14" rx="4" ry="4" width="170.63" x="85.69" y="198.93" stroke="#3d3d3d" stroke-linecap="square" stroke-miterlimit="10" stroke-width="32px" fill="#3d3d3d" class="fill-000000 stroke-000000"></rect><path d="M480 218.67v74.66" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32px" class="stroke-000000"></path></svg>
+            <?xml version="1.0" ?><svg class="feather feather-zap" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+    </div>
+
+    <main>
+        <div class="screen-header">
+            <div class="screen-header__title">찾기</div>
+            <div class="screen-header__icons">
+                <a><i class="fa-solid fa-gift fa-lg"></i></a>
+                <a href="https://www.spotify.com/kr-ko/"><i class="fa-brands fa-spotify fa-lg"></i></a>
+                <a href="settings.html">
+                    <i class="fa-solid fa-wrench fa-lg"></i>
+                    <div class="screen-header__setting-alarm"></div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="find-box">
+            <div class="find-box__content"><?xml version="1.0" ?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"/><rect fill="none" height="64" rx="8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" width="64" x="48" y="48"/><rect fill="none" height="64" rx="8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" width="64" x="48" y="144"/><rect fill="none" height="64" rx="8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" width="64" x="144" y="48"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="144" x2="144" y1="144" y2="176"/><polyline fill="none" points="144 208 176 208 176 144" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="176" x2="208" y1="160" y2="160"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="208" x2="208" y1="192" y2="208"/></svg>
+                <span class="find-box__name"></span>QR Code</span></div>
+            <div class="find-box__content"><?xml version="1.0" ?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"/><circle cx="136" cy="112" fill="none" r="32" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="32" x2="56" y1="108" y2="108"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="32" x2="56" y1="68" y2="68"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="32" x2="56" y1="148" y2="148"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="32" x2="56" y1="188" y2="188"/><path d="M88,168a60,60,0,0,1,96,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><rect fill="none" height="160" rx="8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" transform="translate(264 -8) rotate(90)" width="192" x="40" y="48"/></svg>
+                <span class="find-box__name">Add by Contacts</span></div>
+            <div class="find-box__content"><?xml version="1.0" ?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="200" x2="248" y1="136" y2="136"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="224" x2="224" y1="112" y2="160"/><circle cx="108" cy="100" fill="none" r="60" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M22.2,200a112,112,0,0,1,171.6,0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/></svg>
+                <span class="find-box__name">Add by ID</span></div>
+            <div class="find-box__content"><?xml version="1.0" ?><svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="256" width="256"/><path d="M224,96V200a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V96l96-64Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="110.5" x2="34.5" y1="152" y2="205.7"/><line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" x1="221.5" x2="145.5" y1="205.7" y2="152"/><polyline fill="none" points="224 96 145.5 152 110.5 152 32 96" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/></svg>
+                <span class="find-box__name">Invite</span></div>
+        </div>
+        
+        <div class="find-recommend">
+            <span class="find-recommend__title">Recommended Friends</span>
+            <div class="find-recommend__content">
+                <div class="user-component-chat">
+                    <div class="user-component__box ">
+                        <img class="user-component-chat__pic" src="screenshots/cinnamoroll.jpg">
+                        <div class="user-component2__title">
+                            <h2 class="user-component2__name">Cinnamoroll</h2>
+                            <h5 class="user-component2__status">Hi!</h5>
+                        </div>
+                    </div>
+                    <div class="user-component-chat__add recommend__add-icon">
+                        <div>+</div>
+                    </div>
+                </div>
+                <div class="user-component-chat">
+                    <div class="user-component__box">
+                        <img class="user-component-chat__pic" src="screenshots/kuromi.jpg">
+                        <div class="user-component2__title">
+                            <h2 class="user-component2__name">Kuromi</h2>
+                            <h5 class="user-component2__status">Let's be friends >_<</h5>
+                        </div>
+                    </div>
+                    <div class="user-component-chat__add recommend__add-icon">
+                        <div>+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="find-channel__box">        
+            <div class="find-channel">
+                <span class="find-channel__title">Open Chat</span>
+                <div class="find-channel__add">
+                    Go to Openchat Home
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="find-channel__content">
+                <div class="find-channel__first-box">
+                    <div class="find-channel__chat-title">Let's talk about Sanrio!
+                        <?xml version="1.0" ?><svg id="Layer_1" style="enable-background:new 0 0 64 64;" version="1.1" viewBox="0 0 64 64" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                            .st0{fill:#B4E6DD;}
+                            .st1{fill:#80D4C4;}
+                            .st2{fill:#D2F0EA;}
+                            .st3{fill:#FFFFFF;}
+                            .st4{fill:#FBD872;}
+                            .st5{fill:#DB7767;}
+                            .st6{fill:#F38E7A;}
+                            .st7{fill:#F6AF62;}
+                            .st8{fill:#32A48E;}
+                            .st9{fill:#A38FD8;}
+                            .st10{fill:#7C64BD;}
+                            .st11{fill:#EAA157;}
+                            .st12{fill:#9681CF;}
+                            .st13{fill:#F9C46A;}
+                            .st14{fill:#CE6B61;}
+                        </style><g><path class="st7" d="M21.04,20.63c0,0-1.79,8.99-0.96,11.47c0,0,1.1-13.6,11.67-24.1c0,0-0.34,8.79,5.15,13.25s6.73,11.4,6.73,11.4   s0.62-4.74-1.24-12.33c0,0,11.67,12.12,6.32,25.65c0,0-6.45,14.9-24.92,8.38S17.74,22.97,21.04,20.63z"/><path class="st4" d="M40.75,32.12c0.17,3.81-1.55,4.81-2.94,5.01c-0.89,0.13-1.79-0.1-2.57-0.53c-7.65-4.15-3.72-14.29-3.72-14.29   c-5.01,4.79-2.4,14.74-2.4,14.74s1.55,5.64-1.62,6.13c-1.59,0.25-2.33-0.39-2.67-1.08c-0.31-0.64-0.31-1.39-0.04-2.05   c2.15-5.34,0.31-8.36,0.31-8.36c-1.03,3.06-2.12,5.08-2.91,6.29c-1.12,1.72-1.83,3.68-1.93,5.73C19.9,51.35,26.3,54.4,26.3,54.4   c10.51,5.36,15.23-4.44,15.23-4.44C46.96,39.52,40.75,32.12,40.75,32.12z"/></g></svg>
+                    </div>
+                    <span class="find-channel__hashtag">#SANRIO#CUTE#CHARACTER</span>
+                    <div class="find-channel__members">
+                        <img class="find-channel__profile" src="screenshots/channel.jpg">
+                        <div class="find-channel__members__divide">
+                            <span class="find-channel__howmuch">506 members</span>
+                            <span class="find-channel__active">Active</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="find-channel__second-box">
+                    <img class="find-channel__picture" src="screenshots/sanrio.jpg">
+                    <span class="find-channel__heart"><i class="fa-solid fa-heart"></i>999+</span>
+                </div>
+            </div>
+        </div>
+        
+         <div class="bottom-bar">
+            <a href="friends.html" class="bottom-bar__box">
+                <i class="fa-regular fa-user"></i>
+            </a>
+            <a href="chats.html" class="bottom-bar__box">
+                <i class="fa-regular fa-comments">
+                    <span class="bottom-bar__chat-alarm">100+</span>
+                </i>    
+            </a>
+            <a href="find.html" class="bottom-bar__box">
+                <i class="fa-solid fa-eye"></i>
+            </a>
+            <a href="more.html" class="bottom-bar__box">
+                <i class="fa-solid fa-ellipsis"></i>
+            </a>
+         </div>
+
+    </main>
+    <div id="no-mobile">
+        <span>Your screen is too big !!!</span>
+    </div>
+    <script src="https://kit.fontawesome.com/c84434a6db.js" crossorigin="anonymous"></script>
+</body>
+</html>

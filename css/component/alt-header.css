@@ -1,0 +1,38 @@
+.alt-header {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 22px;
+    align-items: center;
+    z-index: 3;
+    position: fixed;
+}
+.alt-header__title {
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 10px;
+    color: balck;
+}
+.alt-header__icons a {
+    color: var(--main-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+.alt-header__icons i {
+    margin: 0px 5px;
+}
+.alt-header__icons:last-child {
+    position: relative;
+    display: flex;
+}
+.alt-header__setting-alarm {
+    position: absolute;
+    display: flex;
+    width: 5px;
+    height: 5px;
+    background-color: var(--main-pink);
+    border-radius: 50%;
+    top: -10px;
+    right: -10px;
+}

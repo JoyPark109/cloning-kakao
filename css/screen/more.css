@@ -1,0 +1,57 @@
+.user-component__phone {
+    opacity: 0.8;
+    font-size: 12px;
+    margin-top: 15px;
+    color: rgb(98, 98, 98);
+    display: flex;
+    align-items: center;
+}
+.fa-circle-info {
+    color: rgb(228, 21, 21);
+    font-size: 18px;
+    margin-left: 10px;
+}
+.fa-message {
+    color: var(--main-pink);
+    font-size: 25px;
+}
+.More-suggestions{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.More-suggestions__title {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.More-suggestions__box{
+    display: flex;
+}
+.More-suggestions__box div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+.More-suggestions__box div span {
+    margin-top: 10px;
+    color: gray;
+}
+.More-suggestions__pic{
+    width: 55px;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.More-suggestions__pic:hover{
+    box-shadow: 0px 1px 10px 10px var(--sub-pink);
+    transition: 0.5s ease-in-out;
+}

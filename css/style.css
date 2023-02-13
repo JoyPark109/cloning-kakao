@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+@import "css/reset.css";
+
+@import "screen/welcome.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chats.css";
+@import "screen/chat-room.css";
+
+@import "component/status-bar.css";
+@import "component/screen-header.css";
+@import "component/search.css";
+@import "component/user-component.css";
+@import "component/bottom-bar.css";
+@import "component/alt-header.css";
+@import "component/no-mobile.css";
+
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: white;
+    height: 100vh;
+    font-family: 'NanumSquareNeo-Variable';
+}  
+main {
+    padding: 0px 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+:root {
+    --main-color:#F66993;
+    --sub-color:#E9E9EB;
+    --sub-pink:#FFE7F2;
+    --main-pink:#f194b0;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+}
